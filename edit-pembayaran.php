@@ -59,9 +59,9 @@
         <!-- Form -->
         <div class="card col-md-10 mx-auto" style="margin-top:35px ; ">
             <div class="card-body">
-                <input type="hidden" name="id_pembayaran" value="<?php echo $data['id_pembayaran'] ?>">
                 <h5 class="text-center text-white d-flex justify-content-center align-items-center" style="background-color: #353935; height: 35px;">Edit Data Pembayaran</h5>
                 <form method="POST" action="update-pembayaran.php">
+                <input type="hidden" name="id_pembayaran" value="<?php echo $data['id_pembayaran'] ?>">
                     <div class="form-group" style="margin-top: 13px;">
                         <label for="id_petugas">Petugas</label>
                         <select class="form-select" name="id_petugas">
